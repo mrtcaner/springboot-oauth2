@@ -1,11 +1,10 @@
 server:
   port: 8082
-  session:
-    cookie:
-      name: UISESSION
+  servlet:
+    session:
+      cookie:
+        name: UISESSION
 security:
-  basic:
-    enabled: false
   oauth2:
     client:
       clientId: SampleClientId
